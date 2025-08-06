@@ -719,23 +719,22 @@ html, body {
   }
   .formulario-contacto input,
 .formulario-contacto textarea {
-  max-width: 90%;      /* asegura que no se salgan del contenedor */
-  width: 100%;          /* que se adapte a lo disponible */
+  max-width: 90%;      
+  width: 100%;          
   box-sizing: border-box;
  
 }
 
 .formulario-contacto {
   margin-top: 20px;
-  padding: 0 10px;      /* más pequeño el espacio lateral */
-}
+  padding: 0 10px;      
 
 .formulario-contacto .fila {
-  gap: 10px;            /* menos espacio entre campos */
+  gap: 10px;        
 }
 .formulario-contacto button {
-  width: 90%;              /* Puedes ajustar a 50%, 40%, etc. */
-  display: block;          /* Necesario para que el margin funcione */
+  width: 90%;             
+  display: block;         
   font-size: 16px;
 }
 
