@@ -1,0 +1,755 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+.banner {
+  background-image: url("../assets/images/banner-bk.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 60px;
+}
+.claselogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 120px;
+}
+.logo {
+  width: 100px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.access {
+  font-size: 20px;
+  color: white;
+  margin-top: 80px;
+}
+.contenido-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 82px;
+  margin-left: 150px;
+  max-width: 850px;
+}
+.contenido-banner h1 {
+  font-size: 90px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}
+.contenido-banner p {
+  font-size: 22px;
+  color: white;
+  line-height: 35px;
+  margin: 0;
+}
+.botonuno {
+  background-color: #00ffad;
+  color: #192440;
+  padding: 16px 6px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  width: 150px;
+  text-align: center;
+  font-size: 16px;
+}
+.proteccion {
+  text-align: center;
+  padding: 40px;
+}
+.proteccion h2 {
+  font-size: 50px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  color: #292b2c;
+}
+.servicios {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.servicio {
+  width: 350px;
+}
+.icono {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icono img {
+  width: 200px;
+  height: 200px;
+}
+.servicio h3 {
+  font-size: 25px;
+  margin: 10px 0;
+  font-weight: 600;
+  margin-top: 0;
+  color: #292b2c;
+}
+.servicio p {
+  font-size: 17px;
+  line-height: 20px;
+  max-width: 400px;
+  font-weight: 100;
+  color: #38383a;
+}
+.uno {
+  padding: 0 0 150px 0;
+  background: linear-gradient(170deg, #ffffff 50%, #00ffad 50%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.texto h2 {
+  margin-top: 120px;
+}
+.texto p {
+  font-size: 18px;
+}
+.tablet {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  margin-right: 250px;
+  gap: 100px;
+  background-color: #00ffad;
+  padding: 0 0 70px 0;
+}
+.portatil img {
+  width: 140%;
+}
+.portatil {
+  margin-right: 250px;
+}
+.tex h2 {
+  margin: auto;
+  padding: 0 0 0 0;
+  font-size: 50px;
+}
+.tex p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.btn {
+  display: inline-block;
+  background-color: #0a0f2c;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.texto {
+  width: 800px;
+}
+.texto h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #292b2c;
+}
+.texto p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.btn {
+  display: inline-block;
+  background-color: #0a0f2c;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.imagen {
+  width: 500px;
+  text-align: center;
+  margin-top: 80px;
+  z-index: 3;
+  margin-right: -200px;
+}
+.fijacion-precios {
+  text-align: center;
+  padding: 80px 20px;
+}
+.fijacion-precios h2 {
+  font-size: 50px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+.tarjetas {
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  justify-content: center;
+
+ 
+}
+.carta {
+  border-radius: 4px;
+  padding: 40px 30px;
+  width: 320px;
+  height: 400px;
+  text-align: center;
+  font-family: sans-serif;
+}
+.carta h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: black;
+}
+.precio {
+  font-size: 90px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20px;
+}
+.precio span {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+.carta ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+.carta ul li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+.botones {
+  display: inline-block;
+  padding: 12px 24px;
+  border: 2px solid #0a0f2c;
+  border-radius: 30px;
+  color: #0a0f2c;
+  text-decoration: none;
+  font-weight: bold;
+}
+.diferente {
+  background-color: #192440;
+  color: white;
+}
+.diferente h3,
+.diferente .precio span,
+.diferente ul li {
+  color: white;
+}
+.diferente .precio {
+  color: white !important;
+}
+.botondiferente {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #00ffbf;
+  color: black;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+}
+.aliados {
+  background-color: #f2f3f4;
+  padding: 80px 0;
+}
+.aliados-seccion {
+ 
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.aliados-seccion img {
+  height: 70px;
+  object-fit: contain;
+}
+.seccion-contacto {
+  background: url("../assets/images/contact-bk.jpg") center/cover no-repeat;
+  padding: 190px 10px;
+  color: white;
+}
+.contacto {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.informacion-contacto {
+  width: 45%;
+  margin-top: -50px;
+}
+.informacion-contacto h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.informacion-contacto p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+.informacion-contacto p.subtitu {
+  margin-top: 10px;
+}
+.formulario-contacto {
+  width: 55%;
+}
+.formulario-contacto .fila {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.formulario-contacto .campos {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.formulario-contacto label {
+  font-size: 15px;
+  color: #00ffad;
+  margin-bottom: 5px;
+}
+.formulario-contacto input,
+.formulario-contacto textarea {
+  padding: 12px;
+  font-size: 14px;
+  background-color: transparent;
+  border: 1px solid #00ffad;
+  color: white;
+  border-radius: 5px;
+}
+.formulario-contacto .ventana-grande {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.formulario-contacto button {
+  width: 100%;
+  background-color: #00ffad;
+  border: none;
+  padding: 15px;
+  border-radius: 30px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.footer {
+  background-color: #192440;
+  color: white;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer p {
+  font-size: 17px;
+  margin-left: 200px;
+}
+.iconos img {
+  width: 220px;
+  height: 60px;
+}
+.iconos {
+  padding-right: 300px;
+}
+
+@media (max-width: 1279px) {
+  .banner {
+    height: auto;
+    padding: 38px 10px;
+  }
+
+  .contenido-banner h1 {
+    font-size: 65px;
+  }
+  .contenido-banner{
+    margin-left: 32px;
+  }
+
+  .contenido-banner p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  /* .claselogo img{
+    width: 10%;
+  } */
+
+  .logo {
+    width: 100px;
+  }
+
+  .acceso {
+    font-size: 18px;
+  }
+
+  .claselogo {
+    padding: 0px 2px;
+    justify-content: flex-start;
+    gap: 56%;
+  }
+
+  .servicios {
+    align-items: center;
+    gap: 130px;
+  }
+  .texto{
+  margin-top: -150px;
+  margin-left: 30px;
+  }
+
+  .uno {
+    align-items: center;
+  }
+ 
+  .tablet img{
+    width: 100%;
+    margin-left: 30px;
+  }
+  
+  .tex h2{
+    margin-left: -80px;
+    margin-right: -20px;
+  }
+  .tex p{
+    margin-left: -80px;
+  }
+  .tex a {
+    margin-top: -20px;
+    margin-left: -80px;
+  }
+  .portatil {
+    margin-top: -20px;
+    margin-right: 200px;
+    width: 50%;
+  }
+
+  .texto {
+    width: 90%;
+    padding: 10px;
+  }
+  .tarjetas {
+    gap: 30px;
+    align-items: center;
+  }
+  .contacto {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin-top: -40px;
+  }
+  .seccion-contacto{
+    padding: 42px 10px;
+  }
+  .aliados{
+    padding: 52px 0;
+  }
+
+
+  .informacion-contacto,
+  .formulario-contacto {
+    width: 100%;
+    
+  }
+
+  .footer p {
+    margin-left: 0;
+    text-align: center;
+  }
+.formulario-contacto {
+  margin-bottom: 0;
+  padding-bottom: -10px;
+}
+
+.contacto {
+  margin-bottom: 0;
+  padding-bottom: -80px;
+}
+
+  .iconos {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 920px) {
+  .contenido-banner {
+    margin-left: 30px;
+  }
+
+  .contenido-banner h1 {
+    font-size: 40px;
+  }
+
+  .contenido-banner p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .contenido img{
+    padding: 0px;
+  }
+  .botonuno {
+    width: 20%;
+  }
+  .banner h1{
+    font-size: 60px;
+  }
+  .proteccion h2{
+    font-size: 40px;
+  }
+  .texto h2{
+    margin-top: 140px;
+  }
+
+  .portatil img {
+    width: 170%;
+  }
+  .fijacion-precios h2{
+    font-size: 50px;
+  }
+  .icono img {
+    width: 150px;
+    height: 150px;
+  }
+  .precio {
+    font-size: 70px;
+  }
+
+  .texto h2,
+  .tex h2,
+  
+  .informacion-contacto h2 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .botonuno{
+    width: 30%;
+  }
+  .servicios{
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .texto{
+    width: 300px;
+  }
+  .texto h2{
+    
+    font-size: 30px;
+  }
+
+  .portatil{
+    margin: 0;
+    margin-top: -40px;
+  }
+  .portatil img{
+    width: 180px;
+  }
+
+  .tex h2{
+   font-size: 28px;
+  }
+
+  .tarjetas{
+    flex-wrap: wrap;
+  }
+
+  .aliados-seccion{
+  flex-wrap: wrap;
+  }
+  .footer p{
+    font-size: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .claselogo {
+    flex-direction:column;
+    align-items: flex-start;
+    padding: 0 20px;
+  }
+  
+   .portatil img {
+    width: 100%;
+  }
+  .uno{
+    flex-wrap: wrap;
+    margin-top: 150px;
+  }
+  .portatil{
+    margin-top:20px ;
+    
+  }
+ 
+  .tablet {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  body {
+    overflow-x: hidden; /
+  }
+
+
+  .logo {
+    width: 100px;
+    margin: 20px 0 0 0;
+  }
+
+  .access {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+  .proteccion h2{
+    font-size: 40px;
+  }
+
+  .contenido-banner {
+    margin: 40px 20px 0;
+    gap: 30px;
+  }
+
+  .contenido-banner h1 {
+    font-size: 30px;
+  }
+
+  .contenido-banner p {
+    font-size: 14px;
+  }
+  .tablet {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 20px;
+  }
+
+  
+  
+  .tablet img{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  }
+  .texto h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: -30px; 
+  }
+  .tex h2{
+    font-size: 30px;
+     text-align: center;
+     margin-left: -9px;
+  }
+  .tex {
+  text-align: center;
+
+  margin: -160px 50px 20px 20px; /* arriba, derecha, abajo, izquierda */
+}
+
+
+  .fijacion-precios h2{
+    font-size: 40px;
+    margin: 0px;
+  }
+  .tex p{
+    width: 350px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 10px;
+    
+  }
+
+  .texto p {
+    text-align: center;
+    font-size: 16px;
+   
+  }
+
+  .servicios {
+    gap: 30px;
+  }
+
+  .servicio {
+    width: 100%;
+  }
+
+  .imagen {
+    width: 100%;
+    margin-right: 0;
+  }
+  .informacion-contacto h2{
+    margin-top: 100px;
+  }
+
+  .aliados-seccion {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .formulario-contacto .fila {
+    flex-direction: column;
+  }
+
+  .formulario-contacto button {
+    font-size: 16px;
+  }
+
+  .botonuno,
+  .botondiferente,
+  .botones {
+    width: 80%;
+    text-align: center;
+    font-size: 14px;
+  }
+  .formulario-contacto{
+    margin-top: -30px;
+  }
+  .formulario-contacto input,
+.formulario-contacto textarea {
+  max-width: 90%;      /* asegura que no se salgan del contenedor */
+  width: 100%;          /* que se adapte a lo disponible */
+  box-sizing: border-box;
+ 
+}
+
+.formulario-contacto {
+  margin-top: 20px;
+  padding: 0 10px;      /* más pequeño el espacio lateral */
+}
+
+.formulario-contacto .fila {
+  gap: 10px;            /* menos espacio entre campos */
+}
+.formulario-contacto button {
+  width: 90%;              /* Puedes ajustar a 50%, 40%, etc. */
+  display: block;          /* Necesario para que el margin funcione */
+  font-size: 16px;
+}
+
+.footer{
+  display: block;
+}
+
+.iconos{
+  display: flex;
+  justify-content: row;
+  justify-content: center;
+}
+
+}
+
+
+
